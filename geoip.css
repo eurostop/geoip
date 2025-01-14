@@ -1,0 +1,286 @@
+ul.country_block-list{
+    margin-left:0px;
+}
+
+.js-geo_ip-origin_currency_text, .js-geo_ip-origin_orders_text,
+.js-geo_ip-current_currency_text, .js-geo_ip-current_orders_text{
+    font-size:small;
+    list-style-type: none;
+}
+
+.js-geo_ip-current_currency_text, .js-geo_ip-origin_currency_text{
+    text-align:center;
+    font-weight: bold;
+}
+
+.geo_ip-countries .row{
+    display: flex;
+    gap: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.geo_ip-btn {
+    padding: 5px;
+    border-radius: 0px;
+    height: fit-content;
+    width: 220px;
+    cursor: pointer;
+}    
+
+.feature-icon.bg-primary.bg-gradient h5 {
+    text-transform: uppercase !important;
+}
+
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    outline: 0;
+    background: rgb(0, 0, 0, 0.8);
+}
+
+.bs-modal_fix {
+    display: table;
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    pointer-events: none;
+}
+
+.modal.show .modal-dialog {
+    -webkit-transform: initial;
+    transform: none;
+}
+
+.modal.show .modal-dialog {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+}
+
+.bs-modal_fix-helper {
+    display: table-cell;
+    pointer-events: none;
+    vertical-align: middle;
+}
+
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 0.5rem;
+    pointer-events: none;
+}
+
+.geo_ip-content {
+    max-width: 880px;
+}
+
+.modal-content {
+    width: inherit;
+    max-width: 750px;
+    margin: 0 auto;
+    pointer-events: all;
+}
+
+.modal-content {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 5px;
+    outline: 0;
+}
+
+.geo_ip-countries{
+padding-right: 12px;
+padding-left: 12px;
+margin-right: auto;
+margin-left: auto;
+margin-top: 20px;
+}
+    
+.close:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.modal-content .close {
+    z-index: 10;
+}
+
+button.close {
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-appearance: none;
+}
+
+.close, .close:focus, .close:hover {
+    opacity: 1;
+}
+
+.close {
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    border-radius: 3px;
+}
+
+.close {
+    float: right;
+    font-size: 1.3125rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #ccc;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+}
+
+.modal .modal-body {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    
+}
+
+.geo_ip-body {
+    padding-bottom: 20px;
+}
+
+.modal-body {
+    padding-bottom: 20px;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.d-block {
+    display: block!important;
+}
+
+.modal-body {
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.font-weight-demi {
+    font-weight: 700;
+}
+
+.country_block-image {
+    max-width: 60px;
+    max-height: 40px;
+    height: 40px;
+    margin-right: 10px;
+    -webkit-filter: drop-shadow(3px 3px 6px #ccc);
+    filter: drop-shadow(3px 3px 6px #ccc);
+}
+
+.country_block-top {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.country_block-title {
+    display: block;
+    -ms-flex-item-align: center;
+    align-self: center;
+    margin-bottom: 0;
+}
+
+.country_block {
+    margin: auto;
+    padding: 30px 20px;
+    background-color: #f9f9f9;
+    box-shadow: 2px 1px 2px 2px #ddd;
+}
+
+@media (min-width: 768px){
+    .country_block {
+        max-width: 352px;
+    }
+}
+
+
+@media (min-width: 768px){
+    .country_block-title {
+        -ms-flex-item-align: start;
+        align-self: flex-start;
+    }
+}
+
+
+@media (max-width: 768px){
+    .geo_ip-country_bottom, .geo_ip-country_top{
+        padding-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px){
+    .country_block-top {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+}
+
+
+@media (min-width: 375px){
+    .modal-dialog {
+        max-width: 860px;
+        margin: 1.75rem auto;
+    }
+}
+
+
+@media (min-width: 768px){
+    .geo_ip-text {
+        font-size: 22px;
+    }
+}
+
+
+@media (min-width: 768px){
+    .country_block-image {
+        -ms-flex-item-align: center;
+        align-self: center;
+        max-width: 120px;
+        min-height: 80px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
