@@ -25,7 +25,7 @@ ul.country_block-list{
     padding: 5px;
     border-radius: 0px;
     height: fit-content;
-    width: 220px;
+    width: fit-content;
     cursor: pointer;
 }    
 
