@@ -1,5 +1,6 @@
 ul.country_block-list{
     margin-left:0px;
+    padding-left: 0px;
 }
 
 .js-geo_ip-origin_currency_text, .js-geo_ip-origin_orders_text,
@@ -211,6 +212,7 @@ button.close {
     margin-bottom: 10px;
     justify-content: center;
     align-items: center;
+    display: flex;
 }
 
 .country_block-title {
